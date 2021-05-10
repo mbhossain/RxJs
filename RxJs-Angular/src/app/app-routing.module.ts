@@ -3,9 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { StudentListComponent } from './students/components/student-list/student-list.component';
 
 const routes: Routes = [
-  {
-    path:'student-list', component: StudentListComponent
-  }
+  // {path: 'students', loadChildren: () => import('app/students/students.module').then(m => m.StudentsModule)}
 ];
 
 @NgModule({
