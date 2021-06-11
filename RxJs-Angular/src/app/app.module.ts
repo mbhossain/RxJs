@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StudentsModule } from './students/students.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { StudentsModule } from './students/students.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StudentsModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
